@@ -33,7 +33,7 @@ echo Outputs from simple repeats round renamed
 #Masking round 2 - homology based
 echo Masking Round 2
 
-RepeatMasker -pa 20 -a -e ncbi -s -dir 02_arthropoda_out -nolow -species arthropoda \
+RepeatMasker -pa 20 -a -e ncbi -s -dir 02_arthropoda_out -nolow -species Chordata \
         01_simple_out/${genome}.simple_mask.masked.fa 2>&1 | tee logs/02_arthropodamask.log
 
 #rename outputs from previous round
