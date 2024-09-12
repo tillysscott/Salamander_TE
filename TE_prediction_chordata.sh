@@ -29,7 +29,7 @@ mkdir -p $SLURM_ARRAY_TASK_ID
 
 mv ${SLURM_ARRAY_TASK_ID}_*.fa ${SLURM_ARRAY_TASK_ID}/
 
-export library="186-4Bathy_HironPB-families.prefix.cat.consensus"
+export library="TeT_library.reduced"
 
 #PATH=$PATH:~/sharedscratch/apps/TwoBit/
 
